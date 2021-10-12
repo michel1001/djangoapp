@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static%}
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" type="text/css"/>
+{% endblock %}
+{% block title %} TischtennisApp {% endblock %}
+{% block scripts %}
+    <script src = "{% static 'js/index.js' %}"></script>
+{% endblock %}
+{% block body %}
+
+<button class="btn btn-primary">
+  Follow
+</button>
+<button class="ui primary button">
+  Save
+</button>
+<button class="ui button">
+  Discard
+</button>
+
+{% endblock %}
