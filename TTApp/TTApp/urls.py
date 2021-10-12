@@ -17,8 +17,10 @@ from django.contrib import admin
 from django.urls import path
 
 from TischtennisAPP.views import index
+from TischtennisAPP.views import login
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index, name='index',)
+    path('', index, name='index',),
+    path('login/',login, name='login')
 ]
