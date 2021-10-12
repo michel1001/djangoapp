@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'TTApp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'TabletennisDB',
+        'NAME': 'TischtennisDB',
         'USER' : 'postgres',
-        'PASSWORD' : 'zettelhecht73',
+        'PASSWORD' : 'hecht7373',
         'HOST' : '127.0.0.1',
         'PORT' : '5432',
     }
